@@ -7,7 +7,7 @@ A console-based Training Center Management System built using:
 - Entity Framework Core
 - SQL Server
 
-The project follows a clean layered structure and demonstrates real-world backend development concepts including:
+The project follows a clean layered architecture and demonstrates real-world backend development concepts including:
 
 - Entity Relationships
 - CRUD Operations
@@ -21,15 +21,15 @@ The project follows a clean layered structure and demonstrates real-world backen
 # 🚀 Features
 
 ## 👨‍🎓 Student Management
-- Add Student
-- Update Student
-- Delete Student
+- Add Students
+- Update Students
+- Delete Students
 - View All Students
 
 ## 📚 Course Management
-- Add Course
-- Update Course
-- Delete Course
+- Add Courses
+- Update Courses
+- Delete Courses
 - View All Courses
 
 ## 📝 Enrollment System
@@ -90,6 +90,10 @@ TrainingCenter.ConsoleApp
 │   ├── EnrollmentMenuActions.cs
 │   └── InputHelper.cs
 │
+├── Images
+│   ├── ERD.png
+│   └── RS.png
+│
 ├── appsettings.json
 └── Program.cs
 ```
@@ -139,12 +143,26 @@ TrainingCenter.ConsoleApp
 
 ---
 
+# 📸 Database Diagrams
+
+## ERD Diagram
+
+![ERD Diagram](Images/ERD.png)
+
+---
+
+## Relational Schema
+
+![Relational Schema](Images/RS.png)
+
+---
+
 # ▶️ How To Run
 
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Training-Center-Management-System.git
+git clone https://github.com/YOUR-USERNAME/Training-Center-Management-System.git
 ```
 
 ---
@@ -167,7 +185,7 @@ appsettings.json
 
 ---
 
-## 4️⃣ Run Migrations
+## 4️⃣ Run Database
 
 ```powershell
 Update-Database
@@ -178,22 +196,6 @@ Update-Database
 ## 5️⃣ Start Application
 
 Run the project and use the console menu.
-
----
-
-# 📸 Database Diagrams
-
-## ERD Diagram
-
-<img width="900" alt="ERD" src="https://github.com/Shady129/Training-Center-Management-System/blob/main/Images/ERD.png">
-
----
-
-## Relational Schema
-
-<p align="center">
-  <img src="./Images/RS.png" width="900"/>
-</p>
 
 ---
 
@@ -217,6 +219,6 @@ This project was built for:
 
 ---
 
-# ⭐ If You Like The Project
+# ⭐ Support
 
-Give the repository a star ⭐
+If you like the project, give it a star ⭐
