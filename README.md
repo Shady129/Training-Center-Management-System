@@ -10,11 +10,11 @@ A console-based Training Center Management System built using:
 The project follows a clean layered structure and demonstrates real-world backend development concepts including:
 
 - Entity Relationships
-- Service Layer Architecture
 - CRUD Operations
 - Database Design
 - Navigation Properties
 - Console UI Management
+- Layered Architecture
 
 ---
 
@@ -106,7 +106,7 @@ TrainingCenter.ConsoleApp
 - Course → Enrollments
 
 ### Many-To-Many
-- Students ↔ Courses
+- Students ↔ Courses  
 (Via Enrollment Table)
 
 ### One-To-One
@@ -131,7 +131,6 @@ TrainingCenter.ConsoleApp
 
 - CRUD Operations
 - Entity Relationships
-- Dependency Injection Style Structure
 - Navigation Properties
 - Data Validation
 - Separation Of Concerns
@@ -185,13 +184,17 @@ Run the project and use the console menu.
 # 📸 Database Diagrams
 
 ## ERD Diagram
+
 <p align="center">
-  <img src="Images/ERD.png" width="900"/>
+  <img src="./Images/ERD.png" width="900"/>
 </p>
 
+---
+
 ## Relational Schema
+
 <p align="center">
-  <img src="Images/RS.png" width="900"/>
+  <img src="./Images/RS.png" width="900"/>
 </p>
 
 ---
