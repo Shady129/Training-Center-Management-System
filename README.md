@@ -14,7 +14,6 @@ The project follows a clean layered structure and demonstrates real-world backen
 - CRUD Operations
 - Database Design
 - Navigation Properties
-- EF Core Fluent API
 - Console UI Management
 
 ---
@@ -186,10 +185,14 @@ Run the project and use the console menu.
 # 📸 Database Diagrams
 
 ## ERD Diagram
-(Add ERD image here)
+<p align="center">
+  <img src="Images/ERD.png" width="900"/>
+</p>
 
 ## Relational Schema
-(Add Relational Schema image here)
+<p align="center">
+  <img src="Images/RS.png" width="900"/>
+</p>
 
 ---
 
