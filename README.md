@@ -185,9 +185,8 @@ Run the project and use the console menu.
 
 ## ERD Diagram
 
-<p align="center">
-  <img src="./Images/ERD.png" width="900"/>
-</p>
+
+<img width="900" alt="ERD" src="https://github.com/USERNAME/REPOSITORY-NAME/blob/main/Images/ERD.png">
 
 ---
 
